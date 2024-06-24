@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="css/navbar-fixed-top.css" rel="stylesheet">
+</head>
+<body>
+   <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">CSM3503</a>
+         </div>
+         <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+               <li class="active"><a href="index.html">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li class="dropdown">
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                 <ul class="dropdown-menu">
+                   <li><a href="#">Profile</a></li>
+                   <li><a href="#">Logout</a></li>
+                 </ul>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+    <div class="container page" id="employeeDetails">
+        <h1>Employee Details</h1>
+        <p>Employee Number: <span id="employeeNumber"></span></p>
+        <p>Firstname: <span id="firstname"></span></p>
+        <p>Lastname: <span id="lastname"></span></p>
+        <p>Office Code: <span id="officeCode"></span></p>
+        <p>Phone Extension: <span id="phoneExtension"></span></p>
+        <p>Email Address: <span id="emailAddress"></span></p>
+        <p>Job Title: <span id="jobTitle"></span></p>
+        <p>Reports To: <span id="reportsTo"></span></p>
+    </div>
+
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    Front End Programming ©2022
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/second.js"></script>
+</body>
+</html>
